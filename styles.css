@@ -778,6 +778,69 @@ header {
   margin: 0;
 }
 
+.contact-info {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-info .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info .social-icons a {
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info .social-icons a:hover {
+  color: #0073e6;
+}
+
+.contact-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-info input,
+.contact-info textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.contact-info textarea {
+  min-height: 120px;
+}
+
+.contact-info button {
+  padding: 12px;
+  border: none;
+  background-color: #0073e6;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-info button:hover {
+  background-color: #005bb5;
+}
+
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
