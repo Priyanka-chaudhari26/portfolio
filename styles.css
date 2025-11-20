@@ -359,10 +359,14 @@ header {
   .about-me{
     padding: 3rem;
   }
+  .about-text{
+    padding: 3rem;
+  }
   .about-content {
     flex-direction: column;
     text-align: center;
     width: fit-content;
+    padding: 3rem;
   }
 }
 
