@@ -359,17 +359,13 @@ header {
   .about-me{
     padding: 3rem;
   }
-  .about-text{
-    padding: 3rem;
-  }
   .about-content {
     flex-direction: column;
     text-align: center;
     width: fit-content;
-    padding: 3rem;
+    margin: 3rem;
   }
 }
-
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -495,12 +491,25 @@ header {
     padding: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+  .circle-skills{
+    gap:1rem;
+  }
   .circle-skills span{
     padding: auto;
   }
   .circle-skills img {
     width: 40px;
     height: 40px;
+  }
+  .projects-grid{
+    margin: 1rem;
+  }
+  .education-container{
+    margin:1rem;
+    padding: 1rem;
+  }
+  .education-cards{
+    margin: 0.5rem;
   }
 }
 /* EXPERIENCE SECTION */
