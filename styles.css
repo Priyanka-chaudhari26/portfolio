@@ -11,7 +11,8 @@ body {
   margin: 0;
   /* height: 100vh; */
   background: radial-gradient(circle at center, #f8f3e1, #f4f1ef);
-  background: url('images/ivory-off-white-paper-texture-300x200.jpg') no-repeat center center fixed;
+  background: url('images/ivory-off-white-paper-texture-300x200.jpg') no-repeat center center;
+  background-size: cover;
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
@@ -58,7 +59,7 @@ header {
   color: #fff;
   position: fixed;
   height: 80px;
-  width: 110%;
+  width: 100%;
   top: 0;
   z-index: 999;
   backdrop-filter: blur(3px);
@@ -355,9 +356,13 @@ header {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .about-me{
+    padding: 3rem;
+  }
   .about-content {
     flex-direction: column;
     text-align: center;
+    width: fit-content;
   }
 }
 
@@ -577,6 +582,7 @@ header {
 }
 
 @media (max-width: 768px) {
+
   .timeline {
     border-left: none;
     margin-left: 0;
@@ -762,11 +768,11 @@ header {
   background-color: #704832;
 }
 
-.contact-info {
+/* .contact-info {
   flex: 1 1 250px;
   text-align: left;
   max-width: 300px;
-}
+} */
 
 .contact-info p {
   margin: 0.5rem 0;
