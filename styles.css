@@ -105,6 +105,18 @@ header {
   background: #0097a7;
 }
 
+.github-btn {
+  background: #101a1c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 2rem;
+}
+
+.github-btn:hover {
+  background: #03383e;
+}
+
 /* Hamburger for mobile */
 .hamburger {
   display: none;
@@ -559,6 +571,7 @@ header {
 }
 
 .timeline-content ul li {
+  list-style: disc;
   margin-bottom: 0.4rem;
   color: #4a3b2c;
 }
